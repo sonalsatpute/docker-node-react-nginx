@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  hello-world:
+    container_name: hello-world-live
+    build:
+      context: .
+      dockerfile: Dockerfile-live
+    ports:
+      - '8080:80'
