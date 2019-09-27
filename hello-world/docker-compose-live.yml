@@ -9,3 +9,5 @@ services:
       dockerfile: Dockerfile-live
     ports:
       - '80:80'
+    environment:
+      - REACT_APP_API_URL="this is just an environment variable for testing."
