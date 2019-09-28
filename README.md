@@ -1,4 +1,4 @@
-# docker-node-react-nginx
+# docker-react-nginx
 
 ## Docker
 
